@@ -1,0 +1,666 @@
+[03-Jul-2018 09:52:47 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/cutnst/public_html/app/View/Users/register.ctp on line 26
+[04-Jul-2018 09:16:20 Etc/GMT] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/cutnst/public_html/app/Controller/UsersController.php on line 1209
+[04-Jul-2018 09:31:40 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 09:31:41 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 09:31:42 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 09:31:43 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 09:31:43 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 09:31:43 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 09:31:43 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 09:32:08 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 09:32:08 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 09:32:09 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 09:32:16 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 09:32:16 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 09:32:16 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 09:32:16 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 09:40:35 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 09:40:36 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 09:40:43 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 09:40:43 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 09:40:48 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 09:40:48 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 09:40:49 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 09:40:50 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 09:40:50 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 09:40:55 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 09:40:55 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 09:40:59 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 09:40:59 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 09:41:20 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 09:41:20 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 09:41:25 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 09:41:25 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 09:41:31 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 09:41:31 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 10:06:41 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 10:06:41 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 10:06:41 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 10:06:41 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 10:06:54 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 10:06:54 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 10:06:54 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 10:07:10 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 10:07:10 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 10:07:21 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 10:07:21 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 10:07:21 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 10:08:19 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 10:08:20 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 10:08:27 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 10:08:27 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 10:08:35 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 10:08:35 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 10:08:35 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 10:08:49 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 10:08:50 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(40): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 10:14:00 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(41): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 10:14:01 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(41): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 10:14:01 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(41): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 10:14:01 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(41): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 10:14:01 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(41): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 10:14:01 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(41): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[04-Jul-2018 10:14:02 Etc/GMT] PHP Fatal error:  Uncaught exception 'FatalErrorException' with message '[PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cutnst_cutienestV1.feedback' doesn't exist
+#0 /home/cutnst/public_html/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /home/cutnst/public_html/lib/Cake/Model/Datasource/Database/Mysql.php(347): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/cutnst/public_html/lib/Cake/Model/Model.php(1397): Mysql->describe(Object(Feedback))
+#3 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /home/cutnst/public_html/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('Feedback', 'fields')
+#5 /home/cutnst/public_html/app/View/Elements/footer.ctp(41): FormHelper->create('Feedback', Array)
+#6 /home/cutnst/public_html/lib/Cake/View/View.php(971): include('/home/cutnst/pu...')
+#7 /home/cutnst/public_html/lib/Cake/View/View.php(933): View->_evaluate('/home/cutnst/pu...', Array)
+#8 /home/cutnst/public_html/lib/Cake/V in /home/cutnst/public_html/lib/Cake/Error/ErrorHandler.php on line 138
+[06-Jul-2018 08:50:57 Etc/GMT] CSRF state token does not match one provided.
+[06-Jul-2018 08:51:23 Etc/GMT] CSRF state token does not match one provided.
+[06-Jul-2018 09:31:13 Etc/GMT] CSRF state token does not match one provided.
+[06-Jul-2018 09:44:20 Etc/GMT] CSRF state token does not match one provided.
+[06-Jul-2018 12:32:49 Etc/GMT] PHP Parse error:  syntax error, unexpected '$subject' (T_VARIABLE) in /home/cutnst/public_html/app/Controller/PagesController.php on line 161
+[09-Jul-2018 08:11:55 Etc/GMT] PHP Parse error:  syntax error, unexpected ''amitbhasin1234@gmail.com'' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) in /home/cutnst/public_html/app/Controller/UsersController.php on line 49
+[09-Jul-2018 09:05:33 Etc/GMT] PHP Fatal error:  Call to a member function input() on null in /home/cutnst/public_html/app/Controller/UsersController.php on line 29
+[09-Jul-2018 09:20:54 Etc/GMT] PHP Fatal error:  Array callback has to contain indices 0 and 1 in /home/cutnst/public_html/app/Controller/UsersController.php on line 55
+[09-Jul-2018 09:21:20 Etc/GMT] PHP Fatal error:  Array callback has to contain indices 0 and 1 in /home/cutnst/public_html/app/Controller/UsersController.php on line 55
+[10-Jul-2018 05:56:58 Etc/GMT] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/cutnst/public_html/app/View/Users/availability.ctp on line 81
+[10-Jul-2018 05:57:35 Etc/GMT] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/cutnst/public_html/app/View/Users/availability.ctp on line 81
+[10-Jul-2018 10:52:02 Etc/GMT] PHP Fatal error:  Cannot use [] for reading in /home/cutnst/public_html/app/Controller/UsersController.php on line 861
+[10-Jul-2018 11:18:07 Etc/GMT] PHP Fatal error:  Cannot use [] for reading in /home/cutnst/public_html/app/Controller/UsersController.php on line 864
+[10-Jul-2018 11:21:24 Etc/GMT] PHP Fatal error:  Cannot use [] for reading in /home/cutnst/public_html/app/Controller/UsersController.php on line 861
+[10-Jul-2018 12:46:36 Etc/GMT] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/cutnst/public_html/app/Controller/UsersController.php on line 980
+[11-Jul-2018 05:44:27 Etc/GMT] CSRF state token does not match one provided.
+[11-Jul-2018 10:53:48 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/cutnst/public_html/app/View/Users/reserve_request.ctp on line 13
+[11-Jul-2018 12:36:48 Etc/GMT] PHP Fatal error:  Call to undefined function make_thumb() in /home/cutnst/public_html/app/Controller/UsersController.php on line 720
+[11-Jul-2018 12:39:07 Etc/GMT] PHP Fatal error:  Call to undefined function getExtension() in /home/cutnst/public_html/app/Controller/UsersController.php on line 749
+[12-Jul-2018 09:53:27 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/cutnst/public_html/app/Controller/UsersController.php on line 658
+[12-Jul-2018 11:36:16 Etc/GMT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/cutnst/public_html/app/View/Users/user_invoice.ctp on line 57
+[12-Jul-2018 12:24:31 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/cutnst/public_html/app/Controller/AdminController.php on line 706
+[13-Jul-2018 10:29:57 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/cutnst/public_html/app/View/Users/invoice.ctp on line 118
+[14-Jul-2018 08:15:40 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/cutnst/public_html/app/Controller/UsersController.php on line 1099
+[18-Jul-2018 11:08:12 Etc/GMT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/cutnst/public_html/app/Controller/UsersController.php on line 759
+[18-Jul-2018 11:08:39 Etc/GMT] PHP Parse error:  syntax error, unexpected '$user' (T_VARIABLE), expecting function (T_FUNCTION) in /home/cutnst/public_html/app/Controller/UsersController.php on line 824
+[19-Jul-2018 07:10:26 Etc/GMT] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/cutnst/public_html/app/Controller/UsersController.php on line 1404
+[19-Jul-2018 10:46:08 Etc/GMT] PHP Fatal error:  Call to a member function getLog() on array in /home/cutnst/public_html/app/Controller/UsersController.php on line 1437
+[19-Jul-2018 10:46:41 Etc/GMT] PHP Fatal error:  Call to a member function showLog() on array in /home/cutnst/public_html/app/Controller/UsersController.php on line 1437
+[19-Jul-2018 10:50:57 Etc/GMT] PHP Fatal error:  Call to a member function render() on array in /home/cutnst/public_html/app/Controller/UsersController.php on line 1437
+[19-Jul-2018 10:53:24 Etc/GMT] PHP Fatal error:  Call to undefined method UsersController::element() in /home/cutnst/public_html/app/Controller/UsersController.php on line 1437
+[19-Jul-2018 10:55:34 Etc/GMT] PHP Fatal error:  Call to undefined method UsersController::element() in /home/cutnst/public_html/app/Controller/UsersController.php on line 1437
+[19-Jul-2018 11:08:29 Etc/GMT] PHP Fatal error:  Call to undefined method UsersController::element() in /home/cutnst/public_html/app/Controller/UsersController.php on line 1445
+[19-Jul-2018 11:10:41 Etc/GMT] PHP Fatal error:  Call to undefined method UsersController::element() in /home/cutnst/public_html/app/Controller/UsersController.php on line 1445
+[20-Jul-2018 05:25:44 Etc/GMT] PHP Parse error:  syntax error, unexpected 'long' (T_STRING), expecting ',' or ';' in /home/cutnst/public_html/app/View/Search/index.ctp on line 168
+[20-Jul-2018 06:22:34 Etc/GMT] PHP Parse error:  syntax error, unexpected '<' in /home/cutnst/public_html/app/View/Search/index.ctp on line 126
+[20-Jul-2018 06:23:25 Etc/GMT] PHP Parse error:  syntax error, unexpected '?>' in /home/cutnst/public_html/app/View/Search/index.ctp on line 126
+[20-Jul-2018 06:28:59 Etc/GMT] PHP Parse error:  syntax error, unexpected '?>' in /home/cutnst/public_html/app/View/Search/index.ctp on line 126
+[20-Jul-2018 10:16:03 Etc/GMT] PHP Fatal error:  Call to undefined function getLatLong() in /home/cutnst/public_html/app/View/Search/index.ctp on line 49
+[20-Jul-2018 10:16:12 Etc/GMT] PHP Fatal error:  Call to undefined function getLatLong() in /home/cutnst/public_html/app/View/Search/index.ctp on line 49
+[20-Jul-2018 10:22:36 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/cutnst/public_html/app/View/Search/index.ctp on line 189
+[27-Aug-2018 07:01:23 Etc/GMT] PHP Fatal error:  Call to a member function query() on null in /home/cutnst/public_html/app/View/Helper/CommonHelper.php on line 169
+[27-Aug-2018 07:01:26 Etc/GMT] PHP Fatal error:  Call to a member function query() on null in /home/cutnst/public_html/app/View/Helper/CommonHelper.php on line 169
+[27-Aug-2018 07:01:32 Etc/GMT] PHP Fatal error:  Call to a member function query() on null in /home/cutnst/public_html/app/View/Helper/CommonHelper.php on line 169
+[27-Aug-2018 07:01:37 Etc/GMT] PHP Fatal error:  Call to a member function query() on null in /home/cutnst/public_html/app/View/Helper/CommonHelper.php on line 169
+[27-Aug-2018 07:01:45 Etc/GMT] PHP Fatal error:  Call to a member function query() on null in /home/cutnst/public_html/app/View/Helper/CommonHelper.php on line 169
+[28-Aug-2018 07:06:26 Etc/GMT] PHP Fatal error:  Call to a member function validates() on null in /home/cutnst/public_html/app/Controller/PagesController.php on line 189
+[31-Aug-2018 06:44:11 Etc/GMT] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/cutnst/public_html/app/Controller/AdminController.php on line 641
+[31-Aug-2018 06:44:28 Etc/GMT] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/cutnst/public_html/app/Controller/AdminController.php on line 641
+[31-Aug-2018 06:44:40 Etc/GMT] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/cutnst/public_html/app/Controller/AdminController.php on line 640
+[31-Aug-2018 06:44:43 Etc/GMT] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/cutnst/public_html/app/Controller/AdminController.php on line 640
+[31-Aug-2018 06:44:47 Etc/GMT] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/cutnst/public_html/app/Controller/AdminController.php on line 640
+[31-Aug-2018 06:53:54 Etc/GMT] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/cutnst/public_html/app/Controller/AdminController.php on line 238
+[31-Aug-2018 06:53:57 Etc/GMT] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/cutnst/public_html/app/Controller/AdminController.php on line 238

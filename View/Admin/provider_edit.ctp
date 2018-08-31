@@ -1,0 +1,151 @@
+<div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="container-fluid">
+                <!-- ============================================================== -->
+                <!-- Bread crumb and right sidebar toggle -->
+                <!-- ============================================================== -->
+                <div class="row page-titles">
+                    <div class="col-md-6 col-8 align-self-center">
+                        <h3 class="text-themecolor m-b-0 m-t-0">Provider</h3>
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
+                            <li class="breadcrumb-item active">Add Provider</li>
+                        </ol>
+                    </div>
+                   
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Bread crumb and right sidebar toggle -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Start Page Content -->
+                <!-- ============================================================== -->
+                <!-- Row -->
+                <div class="row">
+              
+                    <div class="col-lg-12 col-xlg-9 col-md-7">
+                        <div class="card">
+                            <div class="card-block">
+                               
+                                <?php $states=$this->Common->getState();?>
+
+ <?php echo $this->Form->create('User',array('class'=>'form-horizontal form-material')); ?>
+ 
+ <?php echo $this->Form->input('id', ['type' => 'hidden','value'=>@$this->params['url'][0],'class' => 'form-control form-control-line', 'label' => false]); ?>
+ 
+ <div class="form-group">
+ <label class="col-md-12">Full Name<span class="__required">*</span></label>
+<div class="col-md-12"><?php echo $this->Form->input('name', ['required' => true,'class' => 'form-control form-control-line', 'label' => false]); ?>
+	 </div>
+ </div>
+                                        
+<div class="form-group">
+<label class="col-md-12">Phone<span class="__required">*</span></label>
+<div class="col-md-12"><?php echo $this->Form->input('phone', ['required' => true,'class' => 'form-control form-control-line',  'label' => false]); ?>
+	</div>
+</div>
+<div class="form-group">
+ <label class="col-md-12">Email<span class="__required">*</span></label>
+ <div class="col-md-12"><?php echo $this->Form->input('email', ['readonly' => true,'required' => true, 'class' => 'form-control form-control-line', 'label' => false]); ?>
+ 	</div>
+ </div>
+
+<div class="form-group">
+<label class="col-md-12">Address<span class="__required">*</span></label>
+ <div class="col-md-12"><?php echo $this->Form->input('address', ['type'=>'text','required' => true,'class' => 'form-control form-control-line',  'label' => false]); ?>
+ 	 </div>
+ </div>
+<div class="form-group">
+<label class="col-md-12">State<span class="__required">*</span></label>
+<div class="col-md-12"><?php echo $this->Form->select('state',$states, ['empty' => 'Select State', 'class' => 'form-control form-control-line',  'required' => true]); ?>
+	 </div>
+ </div>
+<div class="form-group">
+<label class="col-md-12">Zip<span class="__required">*</span></label>
+ <div class="col-md-12"><?php echo $this->Form->input('zip', ['required' => true, 'class' => 'form-control form-control-line', 'label' => false]); ?>
+ 	 </div>
+ </div>
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<!--<div class="form-group">
+ <label class="col-md-12">Yard<span class="__required">*</span></label>
+ <div class="col-md-12"><?php echo $this->Form->select('yard', array('Yes' => 'Yes','No' => 'No'), ['empty' => '--Yard--','class' => 'foms-inputs']); ?></div>
+ </div> -->
+ 
+ 
+
+<div class="form-group">
+ <label class="col-md-12">Latitude<span class="__required">*</span></label>
+ <div class="col-md-12"><?php echo $this->Form->input('lat', ['placeholder' => 'Latitude', 'class' => 'MapLat foms-inputs', 'label' => false]); ?></div>
+ </div>
+ 
+ 
+ <div class="form-group">
+ <label class="col-md-12">Longitude<span class="__required">*</span></label>
+ <div class="col-md-12"><?php echo $this->Form->input('long', ['placeholder' => 'Longitude', 'class' => 'MapLon foms-inputs', 'label' => false]); ?></div>
+ </div>
+ 
+ <div class="form-group businesstype">
+ <label class="col-md-12">Stage<span class="__required">*</span></label>
+ <div class="col-md-12"><?php echo $this->Form->select('stage', array('Working for license','Have license','In business'), ['empty' => 'Select Stage','required' => true, 'class' => 'foms-inputs', 'required' => true]); ?></div>
+ </div>
+ 
+ 
+ <div class="form-group">
+ <label class="col-md-12">Years in Business<span class="__required">*</span></label>
+ <div class="col-md-12"><?php echo $this->Form->input('howmanyyears', ['placeholder' => 'Years in Business', 'class' => 'form-control form-control-line', 'label' => false]); ?></div>
+ </div>
+ 
+ 
+ 
+ 
+ <div class="form-group licnoout" >
+ <label class="col-md-12">Licence No.<span class="__required">*</span></label>
+ <div class="col-md-12"><?php echo $this->Form->input('licenceno', ['required' => false,'placeholder' => 'Licence Number','class' => 'licno foms-inputs', 'label' => false]); ?></div>
+ </div>
+ 
+ 
+ 
+ 
+<div class="form-group">
+  <div class="col-md-12"> <?php echo $this->Form->input('SUBMIT', ['type' => 'submit','class'=>'btn btn-success','label' => false]); ?>
+  	 </div>
+ </div>
+
+ 
+ 
+ 
+ 
+ 
+                                <?php echo $this->Form->end(); ?>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Column -->
+                </div>
+                <!-- Row -->
+                <!-- ============================================================== -->
+                <!-- End PAge Content -->
+                <!-- ============================================================== -->
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Container fluid  -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- footer -->
+            <!-- ============================================================== -->
+            <footer class="footer text-center">
+                © 2017 Monster Admin by wrappixel.com
+            </footer>
+            <!-- ============================================================== -->
+            <!-- End footer -->
+            <!-- ============================================================== -->
+        </div>
